@@ -18,3 +18,16 @@ else
 
 fi
 
+##!/bin/bash
+# for disk space
+#df -h | head -2 | tail -1 | awk '{print $3}' | sed 's/G//g'
+
+#to find system memory space limit reached
+#size=$(free -h | head -2 | tail -1 | awk '{print $6}'| sed 's/Mi//g')
+#if [ '$size' -gt 100 ];then
+#echo  "current usageis $sizeMB" > percent2
+#mail -s "RAM usage alert" -c "abc@gmail.com" < percent2
+#fi
+
+#ls -lt | head -2 | tail -1 | awk '{print "file is created on " $6,$7 " at " $8}'
+
